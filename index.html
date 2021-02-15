@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+   <link rel="preconnect" href="https://fonts.gstatic.com" />
+   <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css" />
+
+   <link rel="stylesheet" href="./_main.css" />
+   <title>Avatars - A collection of multiavatars</title>
+</head>
+<body>
+   <div id="app">
+      <header id="app-header">
+			<div class="logo-container">
+				<h1 id="app-logo" class="colored">Avatars</h1>
+			</div>
+			<div id="search-bar-wrapper" class="search-bar icon-labeled-input">
+				<label for="search-input"><i class="ti ti-search"></i></label>
+				<input type="text" id="search-input" placeholder="Search color here" />
+			</div>
+		</header>
+
+      <main>
+         <div id="avatar-grid"></div>
+
+         <div id="color-grid-error" class="error-message" hidden>
+				<div class="expression"><i class="ti ti-face-sad"></i></div>
+				<div class="message">Not found</div>
+			</div>
+      </main>
+
+      <footer id="app-footer">
+			<ul class="social-links">
+				<li><a class="icon" title="@twitter/rs_jhp" target="_blank" href="https://twitter.com/rs_jhp"><i class="ti ti-twitter"></i></a></li>
+				<li><a class="icon" title="@github/rajatprototype" target="_blank" href="https://github.com/rajatprototype"><i class="ti ti-github"></i></a></li>
+				<li><a class="icon" title="@instagram/rsjhp" target="_blank" href="https://www.instagram.com/rsjhp"><i class="ti ti-instagram"></i></a></li>
+				<li><a class="icon" title="@pinterest/rajatprototype" target="_blank" href="https://pinterest.com/rajatprototype"><i class="ti ti-pinterest"></i></a></li>
+			</ul>
+
+			<div class="developar-note">
+				<p><small>Designed by <a title="@gmail/rajat.prototype" href="mailto:rajat.prototype@gmail.com">Rajat Sharma</a></small></p>
+			</div>
+		</footer>
+   </div>
+</body>
+<script src="./_main.js"></script>
+</html>
