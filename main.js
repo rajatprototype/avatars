@@ -217,7 +217,7 @@ class App extends EventTarget {
          const view = new AvatarViewService(avatars);
 
          document.getElementById('search-input').onkeyup = (event) => {
-            const value = event.target.value;
+            const value = (event.target.value || '').toLowerCase();
             const results = avatars.filter(avatar => avatar.includes(value));
 
             view.renderAvatars(results);
